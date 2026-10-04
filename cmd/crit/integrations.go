@@ -560,6 +560,7 @@ var agentProbes = []agentProbe{
 	{"cline", nil, []string{".cline"}, ""},
 	{"codex", []string{"codex"}, nil, ""},
 	{"opencode", []string{"opencode"}, []string{".opencode"}, ""},
+	{"omo", []string{"omo"}, []string{".omo"}, ""},
 	{"aider", []string{"aider"}, nil, ""},
 	{"qwen", []string{"qwen"}, []string{".qwen"}, ""},
 	// Ambiguous names: secondary version check prevents false positives from

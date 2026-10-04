@@ -70,6 +70,9 @@ func TestDestFor_GlobalMode(t *testing.T) {
 		// pi: both skills redirect to ~/.pi/agent/skills/.
 		{"pi", 0, filepath.Join(home, ".pi/agent/skills/crit/SKILL.md")},
 		{"pi", 1, filepath.Join(home, ".pi/agent/skills/crit-cli/SKILL.md")},
+		{"omo", 0, filepath.Join(home, ".omo/agent/skills/crit/SKILL.md")},
+		{"omo", 1, filepath.Join(home, ".omo/agent/skills/crit-cli/SKILL.md")},
+		{"omo", 2, filepath.Join(home, ".omo/agent/skills/crit-story/SKILL.md")},
 		// Cline: manual workflow and model-discoverable CLI reference.
 		{"cline", 0, filepath.Join(home, ".cline/data/workflows/crit.md")},
 		{"cline", 1, filepath.Join(home, ".cline/skills/crit-cli/SKILL.md")},
@@ -156,6 +159,7 @@ func TestIntegrationMap_SnapshotGlobalRouting(t *testing.T) {
 		},
 		"hermes": {{".hermes/skills/crit/SKILL.md", globalDestRelHome}, {".hermes/skills/crit-cli/SKILL.md", globalDestRelHome}, {".hermes/skills/crit-story/SKILL.md", globalDestRelHome}},
 		"pi":     {{".pi/agent/skills/crit/SKILL.md", globalDestRelHome}, {".pi/agent/skills/crit-cli/SKILL.md", globalDestRelHome}, {".pi/agent/skills/crit-story/SKILL.md", globalDestRelHome}},
+		"omo":    {{".omo/agent/skills/crit/SKILL.md", globalDestRelHome}, {".omo/agent/skills/crit-cli/SKILL.md", globalDestRelHome}, {".omo/agent/skills/crit-story/SKILL.md", globalDestRelHome}},
 	}
 	for tool, files := range expected {
 		got := integrationMap[tool]
