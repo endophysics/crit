@@ -59,7 +59,7 @@ claude plugin marketplace add tomasz-tomczyk/crit
 claude plugin install crit@crit
 ```
 
-Crit also works with Cursor, GitHub Copilot, OpenCode, OMO, Codex, Gemini, Qwen, Hermes, Windsurf, Cline, Grok, Aider, and Pi — any agent that can read a file and run a command. See [`integrations/`](integrations/) for all install methods and details.
+Crit also works with Cursor, GitHub Copilot, OpenCode, OMO, omp, Codex, Gemini, Qwen, Hermes, Windsurf, Cline, Grok, Aider, and Pi — any agent that can read a file and run a command. See [`integrations/`](integrations/) for all install methods and details.
 
 ### 3. Tell your agent to use `crit`
 
