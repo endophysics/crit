@@ -1,6 +1,7 @@
 ---
 name: crit-cli
-description: "Use when authoring or replying to Crit inline comments, reading review JSON, publishing or unpublishing a Crit review, or syncing comments with a GitHub PR or GitLab MR. Covers headless CLI operations; use the crit skill only when the user explicitly asks for an interactive Crit review."
+description: Use when an agent needs to author or reply to crit inline comments programmatically (including multi-agent workflows commenting on shared code/plans/docs/proposals), publish or unpublish a crit review with crit share, sync a crit review to or from a GitHub PR or GitLab MR, or read/interpret a crit review JSON file. Covers crit comment, crit share, crit unpublish, crit pull, crit push, review file format, and resolution workflow. Not for invoking an interactive review loop — that's the `crit` skill.
+user-invocable: false
 ---
 
 # Crit CLI reference
