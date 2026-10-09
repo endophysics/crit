@@ -236,7 +236,6 @@ var integrationMap = map[string][]integration{
 		{source: "integrations/omp/skills/crit-cli/SKILL.md", dest: ".omp/skills/crit-cli/SKILL.md", globalDest: ".omp/agent/skills/crit-cli/SKILL.md", globalDestKind: globalDestRelHome, hint: "The crit-cli skill is available to omp agents when needed"},
 		{source: "integrations/omp/skills/crit-story/SKILL.md", dest: ".omp/skills/crit-story/SKILL.md", globalDest: ".omp/agent/skills/crit-story/SKILL.md", globalDestKind: globalDestRelHome, hint: "Run /skill:crit-story in omp to author a story and continue the review loop"},
 	},
-	},
 	"pi": {
 		// Pi auto-discovers skills in both .pi/skills/ (project-local) and
 		// ~/.pi/agent/skills/ (global). Different shape between modes, so

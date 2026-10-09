@@ -1,6 +1,6 @@
 ---
 name: crit
-description: "Review code changes, a plan, a live page, or a local HTML file with Crit inline comments and structured human feedback. Use only when the user explicitly invokes /skill:crit or directly asks to use Crit; a generic review request does not count."
+description: "Review code changes, a plan, a live page (running dev server), or a local HTML file with Crit inline comments and structured human feedback. Use only when the user explicitly invokes /crit or directly asks to use Crit; a generic review request does not count."
 ---
 
 # Review with Crit
